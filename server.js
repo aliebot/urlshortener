@@ -41,6 +41,6 @@ app.use('/auth', require('./routes/auth'));
 app.use('/api', require('./routes/url'));
 
 app.listen(
-  '8080',
+  process.env.PORT || 8080,
   console.log(`Server started in ${process.env.NODE_ENV} mode on port 8080`)
 );
