@@ -4,7 +4,7 @@
   "description": "url shortener with user authentication",
   "main": "server.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node server",
+    "start": "node server",
     "dev": "cross-env NODE_ENV=development nodemon server"
   },
   "repository": {
@@ -28,8 +28,7 @@
     "morgan": "^1.10.0",
     "nanoid": "^2.1.11",
     "passport": "^0.6.0",
-    "passport-google-oauth20": "^2.0.0",
-    "cross-env": "^7.0.3"
+    "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
     "@types/nanoid": "^3.0.0",
