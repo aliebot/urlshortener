@@ -1,0 +1,38 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "url shortener with user authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "cross-env NODE_ENV=development nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliebot/urlshortener.git"
+  },
+  "author": "Al Rifat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliebot/urlshortener/issues"
+  },
+  "homepage": "https://github.com/aliebot/urlshortener#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.3",
+    "morgan": "^1.10.0",
+    "nanoid": "^2.1.11",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/nanoid": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.19"
+  }
+}
